@@ -311,6 +311,10 @@ foreach(@spreadsheet_folder)
 						$translation_hex =~ s/5B5B/8179/gi;
 						$translation_hex =~ s/5D5D/817A/gi;
 
+						# Remove erroneous leading data from hex representation of English
+						# text.
+						$translation_hex =~ s/^ff//i;
+
 						# Verbose status message.
 						if($mode eq "verbose")
 						{
@@ -347,6 +351,10 @@ foreach(@spreadsheet_folder)
 
 							# Store hex representation of English text.
 							$translation_hex = ascii_to_hex($translation);
+
+							# Remove erroneous leading data from hex representation of English
+							# text.
+							$translation_hex =~ s/^ff//i;
 
 							# Verbose status message.
 							if($mode eq "verbose")
