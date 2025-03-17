@@ -17,8 +17,10 @@ use Spreadsheet::Read qw(ReadData);
 # Set STDOUT encoding to UTF-8.
 binmode(STDOUT, "encoding(UTF-8)");
 
-# Set dialogue box width to 60 characters for text wrapping.
+# Set dialogue box width to 60 characters for text wrapping, as well as define
+# maximum numbers of lines per box.
 my $max_chars_per_line = 60;
+my $max_line_count = 5;
 
 # Remove previous warning log file.
 unlink("warning.log");
@@ -113,6 +115,7 @@ foreach(@spreadsheet_folder)
 				my $value = $spreadsheet_rows[$j][1];
 				my $speaker = $spreadsheet_rows[$j][2];
 				my $translation = decode_entities($spreadsheet_rows[$j][3]);
+				my $notes = $spreadsheet_rows[$j][4];
 				my $orig_hex = unpack('H*', encode('Shift_JIS', $value));
 				$orig_hex =~ s/3F//gi;
 
@@ -144,6 +147,18 @@ foreach(@spreadsheet_folder)
 				# Process text strings.
 				elsif($type eq "String")
 				{
+					# Adjust maximum lines and characters per line for quiz scenes.
+					if($original_files[$i] =~ /REX/ && $notes !~ /FORCE60/)
+					{
+						$max_chars_per_line = 66;
+						$max_line_count = 3;
+					}
+					else
+					{
+						$max_chars_per_line = 60;
+						$max_line_count = 5;
+					}
+
 					# No speaker name/type specified.
 					if($speaker eq "" && $translation ne "")
 					{
@@ -291,15 +306,15 @@ foreach(@spreadsheet_folder)
 							push(@translation_wrapped, $line);
 						}
 
-						# Throw warning if English text exceeds five lines.
-						if(scalar(@translation_wrapped) > 5)
+						# Throw warning if English text exceeds maximum line count.
+						if(scalar(@translation_wrapped) > $max_line_count)
 						{
 							# Status message.
-							print "    WARNING: English text exceeds five lines (row " . ($j + 1) . ")!\n\n";
+							print "    WARNING: English text exceeds " . $max_line_count . " lines (row " . ($j + 1) . ")!\n\n";
 
 							# Write details to warning log.
 							open(my $warning_file, '>>', "warning.log");
-							print $warning_file $original_files[$i] . ".xlsx - Row " . ($j + 1) . " exceeds five lines.\n";
+							print $warning_file $original_files[$i] . ".xlsx - Row " . ($j + 1) . " exceeds " . $max_line_count . " lines.\n";
 							close $warning_file;
 						}
 
