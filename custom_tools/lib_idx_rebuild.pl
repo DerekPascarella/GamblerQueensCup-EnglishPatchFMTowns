@@ -243,6 +243,8 @@ foreach(@spreadsheet_folder)
 						$translation =~ s/“/"/g;
 						$translation =~ s/\.{4,}/\.\.\./g;
 						$translation =~ s/…/\.\.\./g;
+						$translation =~ s/\P{IsPrint}//g;
+						$translation =~ s/[^[:ascii:]]+//g;
 
 						# Replace carrots (^) with empty spaces.
 						$translation =~ s/\^/ /g;
@@ -299,8 +301,7 @@ foreach(@spreadsheet_folder)
 							}
 						}
 
-						# Push the final line if it's not empty and append "*r" without a leading
-						# space if needed.
+						# Push the final line if it's not empty.
 						if($line ne "")
 						{
 							push(@translation_wrapped, $line);
@@ -360,6 +361,8 @@ foreach(@spreadsheet_folder)
 							$translation =~ s/“/"/g;
 							$translation =~ s/\.{4,}/\.\.\./g;
 							$translation =~ s/…/\.\.\./g;
+							$translation =~ s/\P{IsPrint}//g;
+							$translation =~ s/[^[:ascii:]]+//g;
 
 							# Replace carrots (^) with empty spaces.
 							$translation =~ s/\^/ /g;
