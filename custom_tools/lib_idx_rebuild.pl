@@ -246,6 +246,9 @@ foreach(@spreadsheet_folder)
 						$translation =~ s/\P{IsPrint}//g;
 						$translation =~ s/[^[:ascii:]]+//g;
 
+						# Fix "W-what" and all similar occurrences to "W-What".
+						$translation =~ s/([A-Z])-([a-z])/$1 . '-' . uc($2)/ge;
+
 						# Replace carrots (^) with empty spaces.
 						$translation =~ s/\^/ /g;
 
