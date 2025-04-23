@@ -163,7 +163,7 @@ foreach(@spreadsheet_folder)
 					if($speaker eq "" && $translation ne "")
 					{
 						# Status message.
-						print "    WARNING: No speaker name/type specified (row " . ($j + 1) . ")!\n\n";
+						print "    WARNING: No speaker name/type specified (row " . ($j + 1) . ")!\n";
 
 						# Write details to warning log.
 						open(my $warning_file, '>>', "warning.log");
