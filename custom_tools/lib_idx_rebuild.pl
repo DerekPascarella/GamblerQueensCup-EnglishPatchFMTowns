@@ -262,13 +262,18 @@ foreach(@spreadsheet_folder)
 						{
 							my $word_length = length($word);
 
-							# If the word contains an asterisk, subtract four from its length (e.g.,
-							# *fhighlighted*a).
-							if($word =~ /^\*.*\*$/)
+							# Store asterisk count for current word.
+							my $asterisk_count = () = $word =~ /\*/g;
+
+							# If word contains two asterisks (e.g., *aword*f), subtract four from
+							# its length for line character count purposes.
+							if($asterisk_count == 2)
 							{
 								$word_length -= 4;
 							}
-							elsif($word =~ /\*/)
+							# If word contains one asterisk (e.g., *afirst, second*f), subtract two
+							# from its length for line character count purposes.
+							elsif($asterisk_count == 1)
 							{
 								$word_length -= 2;
 							}
