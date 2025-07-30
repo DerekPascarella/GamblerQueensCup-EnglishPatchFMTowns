@@ -1,4 +1,5 @@
 <h1>Gambler: Queen's Cup</h1>
+
 <img width="165" height="231" align="right" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/cover.jpg?raw=true">English translation patch for the eroge dating/horse betting simulation game "Gambler: Queen's Cup" on the FM Towns/FM Towns Marty.
 <br><br>
 Players see the world through the eyes of Mr. Takagi, an avid sports better fixated on horse races. One day, a realization dawns on him. The epiphany? He needs to settle down and find true love.
@@ -7,7 +8,21 @@ Until that moment, Mr. Takagi had only seen women as useful for one-night stands
 <br><br>
 It's now time for him to make his biggest (and riskiest) gamble yet: choosing the woman of his dreams!
 <br><br>
-The latest version of this patch is <a href="LINK GOES HERE">1.0</a>. <h2>Table of Contents</h2> 1. [Patching Instructions](#patching-instructions) 2. [Credits](#credits) 3. [Release Changelog](#release-changelog) 4. [What's Changed](#whats-changed) 5. [About the Game](#about-the-game) 6. [How to Play](#how-to-play) 7. [Cheat Tool](#cheat-tool) <h2>Patching Instructions</h2> This English translation patch release includes a custom patch-applying kit. It specifically targets the <a href="http://redump.org/disc/70843/">Redump</a> rip, and no other version of the original source disc image can be used.
+The latest version of this patch is <a href="LINK GOES HERE">1.0</a>.
+
+<h2>Table of Contents</h2>
+
+1. [Patching Instructions](#patching-instructions)
+2. [Credits](#credits)
+3. [Release Changelog](#release-changelog)
+4. [What's Changed](#whats-changed)
+5. [About the Game](#about-the-game)
+6. [How to Play](#how-to-play)
+7. [Cheat Tool](#cheat-tool)
+
+<h2>Patching Instructions</h2>
+
+This English translation patch release includes a custom patch-applying kit. It specifically targets the <a href="http://redump.org/disc/70843/">Redump</a> rip, and no other version of the original source disc image can be used.
 <br><br>
 To apply the patch, follow the steps below.
 <br><br>
@@ -20,6 +35,7 @@ To apply the patch, follow the steps below.
 </ol>
 
 <h2>Credits</h2>
+
 <ul>
   <li>
     <b>Hacking / Editing</b>
@@ -50,12 +66,15 @@ To apply the patch, follow the steps below.
     <li>Initial release.</li>
   </ul>
 </ul>
+
 <h2>What's Changed</h2>
+
 <ul>
   <li>All text, everywhere, has been translated into English.</li>
 </ul>
 
 <h2>About the Game</h2>
+
 <table>
   <tr>
     <td>
@@ -91,6 +110,7 @@ To apply the patch, follow the steps below.
 </table>
 
 <h2>How to Play</h2>
+
 <ul>
   <li>
     <b>ODE (Optical Drive Emulator)</b>
@@ -110,7 +130,9 @@ To apply the patch, follow the steps below.
     ⯈ <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/fdd_images/Gambler%20-%20Queen's%20Cup%20(Save%20Disk).d88">Gambler - Queen's Cup (Save Disk).d88</a>
 </ul>
 
-<h2>Cheat Tool</h2> Players who wish to cheat and modify the amount of money held by their player can do so by using a special tool developed exclusively for the release of this English translation Patch.
+<h2>Cheat Tool</h2>
+
+Players who wish to cheat and modify the amount of money held by their player can do so by using a special tool developed exclusively for the release of this English translation Patch.
 <br><br>
 Usage is simple: download <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/custom_tools/save_mod.exe">save_mod.exe</a> and then drag any floppy save disk in <tt>.d88</tt> format onto the executable itself. A menu will appear providing options for money modification.
 <br><br>
