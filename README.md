@@ -1,5 +1,5 @@
 <h1>Gambler: Queen's Cup</h1>
-<img width="165" height="231" align="right" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/cover.jpg?raw=true">English translation patch for the eroge graphic dating and horse betting simulation game "Gambler: Queen's Cup" on the FM Towns/FM Towns Marty.
+<img width="165" height="231" align="right" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/cover.jpg?raw=true">English translation patch for the eroge dating/horse betting simulation game "Gambler: Queen's Cup" on the FM Towns/FM Towns Marty.
 <br><br>
 Players see the world through the eyes of Mr. Takagi, an avid sports better fixated on horse races. One day, a realization dawns on him. The epiphany? He needs to settle down and find true love.
 <br><br>
