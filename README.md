@@ -119,7 +119,7 @@ To apply the patch, follow the steps below.
     <br>
     The English-patched version of this game (in CCD/IMG/SUB format) is compatible with both the <a href="https://gdemu.wordpress.com/details/docbrown-details/">DocBrown</a> and <a href="https://gdemu.wordpress.com/details/wizard-details/">Wizard</a> ODEs for the FM Towns Marty and the FM Towns, respectively.
     <br><br>
-    This game, like many on the FM Towns, requires a specially formatted save disk for game progress. For users of FDD emulators (e.g., <a href="https://www.gotekemulator.com/">GoTek</a>, <a href="https://caiusarcade.blogspot.com/2021/05/the-thing-fm-towns-marty-fdd-emulator.html">The Thing</a>), download the disk image below.
+    This game, like many on the FM Towns, requires a specially formatted save disk for game progress. For users of FDD emulators (e.g., <a href="https://www.gotekemulator.com/">GoTek</a>, <a href="https://caiusarcade.blogspot.com/2021/05/the-thing-fm-towns-marty-fdd-emulator.html">The Thing</a>), a pre-made save disk image can be downloaded below. Alternatively, a save disk can be created from the title screen menu while a blank disk image is mounted via the FDD emulator.
     <br><br>
     ⯈ <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/fdd_images/Gambler%20-%20Queen's%20Cup%20(Save%20Disk).hfe">Gambler - Queen's Cup (Save Disk).hfe</a>
     <br><br>
@@ -127,7 +127,7 @@ To apply the patch, follow the steps below.
   <li>
     <b>Emulator</b>
     <br>
-    The English-patched version of this game is compatible with the <a href="https://github.com/captainys/TOWNSEMU">Tsugaru</a> emulator, and likely <a href="http://townsemu.world.coocan.jp/download.html">Unz</a> as well. This game, like many on the FM Towns, requires a specially formatted save disk for game progress. The following disk image has been tested and confirmed working with Tsugaru.
+    The English-patched version of this game is compatible with the <a href="https://github.com/captainys/TOWNSEMU">Tsugaru</a> emulator, and likely <a href="http://townsemu.world.coocan.jp/download.html">Unz</a> as well. This game, like many on the FM Towns, requires a specially formatted save disk for game progress. For Tsugaru users, a pre-made save disk image can be downloaded below. Alternatively, a save disk can be created from the title screen menu while a blank disk image is mounted via the emulator.
     <br><br>
     ⯈ <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/fdd_images/Gambler%20-%20Queen's%20Cup%20(Save%20Disk).d88">Gambler - Queen's Cup (Save Disk).d88</a>
 </ul>
