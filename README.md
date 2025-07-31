@@ -140,4 +140,4 @@ Usage is simple: download <a href="https://github.com/DerekPascarella/GamblerQue
 Conversion between <tt>.d88</tt>, <tt>.hfe</tt>, and other formats can be achieved with tools like <a href="https://hxc2001.com/download/floppy_drive_emulator/">HxC Floppy Emulator Software</a>.
 
 <h2>Bug Reports and Typos</h2>
-Should a user encounter what they believe to be a bug or typo (spelling/grammar error) during their viewing of "Birdcage of Horrors", it's asked that they please share their findings by <a href="https://github.com/DerekPascarella/BirdcageOfHorrors-EnglishPatchDreamcast/issues/new">submitting a new issue</a>.
+Should a user encounter what they believe to be a bug or typo (spelling/grammar error) during their playthrough of "Gambler: Queen's Cup", it's asked that they please share their findings by <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/issues/new">submitting a new issue</a>.
