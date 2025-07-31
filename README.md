@@ -19,6 +19,7 @@ The latest version of this patch is <a href="LINK GOES HERE">1.0</a>.
 5. [About the Game](#about-the-game)
 6. [How to Play](#how-to-play)
 7. [Cheat Tool](#cheat-tool)
+8. [Bug Reports and Typos](#bug-reports-and-typos)
 
 <h2>Patching Instructions</h2>
 
@@ -137,3 +138,6 @@ Players who wish to cheat and modify the amount of money held by their player ca
 Usage is simple: download <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/custom_tools/save_mod.exe">save_mod.exe</a> and then drag any floppy save disk in <tt>.d88</tt> format onto the executable itself. A menu will appear providing options for money modification.
 <br><br>
 Conversion between <tt>.d88</tt>, <tt>.hfe</tt>, and other formats can be achieved with tools like <a href="https://hxc2001.com/download/floppy_drive_emulator/">HxC Floppy Emulator Software</a>.
+
+<h2>Bug Reports and Typos</h2>
+Should a user encounter what they believe to be a bug or typo (spelling/grammar error) during their viewing of "Birdcage of Horrors", it's asked that they please share their findings by <a href="https://github.com/DerekPascarella/BirdcageOfHorrors-EnglishPatchDreamcast/issues/new">submitting a new issue</a>.
