@@ -111,6 +111,7 @@ To apply the patch, follow the steps below.
 </table>
 
 <h2>How to Play</h2>
+
 <img align="right" width="300" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/gameplay_13.png?raw=true">
 <ul>
   <li>
@@ -133,7 +134,7 @@ To apply the patch, follow the steps below.
 
 <h2>Cheat Tool</h2>
 
-Players who wish to cheat and modify the amount of money held by their player can do so by using a special tool developed exclusively for the release of this English translation Patch.
+<img align="right" width="300" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/gameplay_25.png?raw=true">Players who wish to cheat and modify the amount of money held by their player can do so by using a special tool developed exclusively for the release of this English translation Patch.
 <br><br>
 Usage is simple: download <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/custom_tools/save_mod.exe">save_mod.exe</a> and then drag any floppy save disk in <tt>.d88</tt> format onto the executable itself. A menu will appear providing options for money modification.
 <br><br>
