@@ -111,7 +111,7 @@ To apply the patch, follow the steps below.
 </table>
 
 <h2>How to Play</h2>
-
+<img align="right" width="300" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/gameplay_13.png?raw=true">
 <ul>
   <li>
     <b>ODE (Optical Drive Emulator)</b>
