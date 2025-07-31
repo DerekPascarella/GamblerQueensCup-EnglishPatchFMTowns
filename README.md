@@ -115,11 +115,21 @@ To apply the patch, follow the steps below.
 <img align="right" width="300" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/gameplay_13.png?raw=true">
 <ul>
   <li>
+    <b>CD-R</b>
+    <br>
+    The English-patched version of this game can be burned to CD-R and played on FM Towns Marty or any FM Towns computer.
+    <br><br>
+    Saving game progress requires either a working floppy disk drive or an FDD emulator (such as the <a href="https://www.gotekemulator.com/">GoTek</a> or <a href="https://caiusarcade.blogspot.com/2021/05/the-thing-fm-towns-marty-fdd-emulator.html">The Thing</a>). Like many FM Towns titles, this game needs a specially formatted save disk. If you are using a floppy drive emulator, you can download and use the pre-made save disk image provided below. Alternatively, a save disk can be created from the title screen menu by inserting a blank disk, either physically or through the emulator.
+    <br><br>
+    ⯈ <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/fdd_images/Gambler%20-%20Queen's%20Cup%20(Save%20Disk).hfe">Gambler - Queen's Cup (Save Disk).hfe</a>
+    <br><br>
+  </li>
+  <li>
     <b>ODE (Optical Drive Emulator)</b>
     <br>
     The English-patched version of this game (in CCD/IMG/SUB format) is compatible with both the <a href="https://gdemu.wordpress.com/details/docbrown-details/">DocBrown</a> and <a href="https://gdemu.wordpress.com/details/wizard-details/">Wizard</a> ODEs for the FM Towns Marty and the FM Towns, respectively.
     <br><br>
-    This game, like many on the FM Towns, requires a specially formatted save disk for game progress. For users of FDD emulators (e.g., <a href="https://www.gotekemulator.com/">GoTek</a>, <a href="https://caiusarcade.blogspot.com/2021/05/the-thing-fm-towns-marty-fdd-emulator.html">The Thing</a>), a pre-made save disk image can be downloaded below. Alternatively, a save disk can be created from the title screen menu while a blank disk image is mounted via the FDD emulator.
+    Saving game progress requires either a working floppy disk drive or an FDD emulator (such as the <a href="https://www.gotekemulator.com/">GoTek</a> or <a href="https://caiusarcade.blogspot.com/2021/05/the-thing-fm-towns-marty-fdd-emulator.html">The Thing</a>). Like many FM Towns titles, this game needs a specially formatted save disk. If you are using a floppy drive emulator, you can download and use the pre-made save disk image provided below. Alternatively, a save disk can be created from the title screen menu by inserting a blank disk, either physically or through the emulator.
     <br><br>
     ⯈ <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/fdd_images/Gambler%20-%20Queen's%20Cup%20(Save%20Disk).hfe">Gambler - Queen's Cup (Save Disk).hfe</a>
     <br><br>
@@ -136,7 +146,7 @@ To apply the patch, follow the steps below.
 
 <img align="right" width="300" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/gameplay_25.png?raw=true">Players who wish to cheat and modify the amount of money held by their player can do so by using a special tool developed exclusively for the release of this English translation Patch.
 <br><br>
-Usage is simple: download <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/custom_tools/save_mod.exe">save_mod.exe</a> and then drag any floppy save disk in <tt>.d88</tt> format onto the executable itself. A menu will appear providing options for money modification.
+Usage is simple: download <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/custom_tools/save_mod.exe">save_mod.exe</a> and then drag any floppy save disk image in <tt>.d88</tt> format onto the executable itself. A menu will appear providing options for money modification.
 <br><br>
 Conversion between <tt>.d88</tt>, <tt>.hfe</tt>, and other formats can be achieved with tools like <a href="https://hxc2001.com/download/floppy_drive_emulator/">HxC Floppy Emulator Software</a>.
 
