@@ -19,7 +19,8 @@ The latest version of this patch is <a href="LINK GOES HERE">1.0</a>.
 5. [About the Game](#about-the-game)
 6. [How to Play](#how-to-play)
 7. [Cheat Tool](#cheat-tool)
-8. [Bug Reports and Typos](#bug-reports-and-typos)
+8. [Horse Betting Tutorial](#horse-betting-tutorial)
+9. [Bug Reports and Typos](#bug-reports-and-typos)
 
 <h2>Patching Instructions</h2>
 
@@ -150,5 +151,84 @@ Usage is simple: download <a href="https://github.com/DerekPascarella/GamblerQue
 <br><br>
 Conversion between <tt>.d88</tt>, <tt>.hfe</tt>, and other formats can be achieved with tools like <a href="https://hxc2001.com/download/floppy_drive_emulator/">HxC Floppy Emulator Software</a>.
 
+<h2>Horse Betting Tutorial</h2>
+
+"Gambler: Queen's Cup" uses horse betting as a mechanism for replenishing funds needed for the player to advance the story with all three of the girls.
+
+<h3>Main Screen</h3>
+<b>Announcements:</b> Shows overall race schedule for the day, as well as results. Up to 12 races can happen per day.
+<br>
+<b>Paddock:</b> Shows the eight horses, their states, and their favorability odds for the next race.
+<br>
+<b>Place Bets:</b> Place bets here.
+<br>
+<b>Watch the Race:</b> Watch a horse race.
+<br>
+<b>System:</b> Generic menu to hide menu overlays or return to title screen.
+<br><br>
+<img src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/horse_betting/1.png?raw=true">
+
+<h3>Announcements</h3>
+The pink numbers on the left represent scheduled races for the day.
+<br>
+The column under the row of colored block numbers along the top represent the number of horses in each race.
+<br>
+The green numbers represent the individual horses.
+<br>
+The column under the row of white numbers will show horses finishing order after a particular race is over.
+<br>
+The "Win" column represents the odds of a winner.
+<br>
+The "Exacta" column represents the odds for 1st and 2nd places horses finishing in the same place again.
+<br>
+The "Amount" column represents the player's winnings for a race.
+<br><br>
+<img src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/horse_betting/2.png?raw=true">
+
+<h3>Paddock</h3>
+The blue numbers represent the individual horse numbers.
+<br>
+The color block numbers represent the race numbers.
+<br>
+The horse names follow the color block numbers.
+<br>
+The stats for leg strength, body strength, and guys are shown for each horse.
+<br>
+The horse type is shown for each.
+<br>
+The number in brackets is the expected race result (e.g., <1> represents expected 1st place horse).
+<br><br>
+<img src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/horse_betting/3.png?raw=true">
+
+<h3>Place Bets</h3>
+Each ticket costs ¥100, and players can bet up to 1,000 tickets at once.
+<br>
+The first column is for betting on who comes in 1st, and the other columns are for betting on who comes in 1st and 2nd.
+<br>
+The example below shows buying 180 tickets for both horses one and three.
+<br><br>
+<img src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/horse_betting/4b.png?raw=true">
+
+<h3>Watch the Race</h3>
+1st, 2nd, and 3rd place horse numbers are shown in the black circles in the upper left of the middle window.
+<br>
+Each race is broken into four parts, denoted by the red arrow at the top right of the middle window.
+<br>
+Holding the A or B button during the race forces it to play out in fast forward.
+<br><br>
+<img src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/horse_betting/5.png?raw=true">
+For race results, the horse number and name are displayed.
+<br>
+The orange column show the result order. In the example below, horse number one came in 1st place, whereas hosre number two came in last place.
+<br>
+The yellow column shows the odds for each horse.
+<br>
+The orange hyphenated number shows the 1st and 2nd place winning combo.
+<br>
+The last yellow number at the top shows the 1-2 odds.
+<br><br>
+<img src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/horse_betting/6.png?raw=true">
+
 <h2>Bug Reports and Typos</h2>
+
 Should a user encounter what they believe to be a bug or typo (spelling/grammar error) during their playthrough of "Gambler: Queen's Cup", it's asked that they please share their findings by <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/issues/new">submitting a new issue</a>.
