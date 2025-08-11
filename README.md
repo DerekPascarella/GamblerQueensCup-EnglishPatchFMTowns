@@ -8,7 +8,7 @@ Until that moment, Mr. Takagi had only seen women as useful for one-night stands
 <br><br>
 It's now time for him to make his biggest (and riskiest) gamble yet: choosing the woman of his dreams!
 <br><br>
-The latest version of this patch is <a href="LINK GOES HERE">1.0</a>.
+The latest version of this patch is <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/releases/download/1.0/Gambler.-.Queen.s.Cup.English.v1.0.zip">1.0</a>.
 
 <h2>Table of Contents</h2>
 
@@ -29,7 +29,7 @@ This English translation patch release includes a custom patch-applying kit. It 
 To apply the patch, follow the steps below.
 <br><br>
 <ol type="1">
-  <li>Extract the <a href="LINK GOES HERE">latest release package ZIP</a> to any folder of your choosing. </li>
+  <li>Extract the <a href=https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/releases/download/1.0/Gambler.-.Queen.s.Cup.English.v1.0.zip">latest release package ZIP</a> to any folder of your choosing. </li>
   <li>Place the entire Redump disc image in the <tt>redump_original</tt> folder (as per the screenshot below). </li>
   <img src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/patch_howto.png?raw=true">
   <li>Launch the <tt>apply_patch.bat</tt> script and watch for status messages as it applies the patch. </li>
@@ -63,7 +63,7 @@ To apply the patch, follow the steps below.
 </ul>
 <h2>Release Changelog</h2>
 <ul>
-  <li>Version 1.0 (2025-XX-XX)</li>
+  <li>Version 1.0 (2025-08-11)</li>
   <ul>
     <li>Initial release.</li>
   </ul>
