@@ -145,7 +145,7 @@ To apply the patch, follow the steps below.
 
 <h2>Cheat Tool</h2>
 
-<img align="right" width="300" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/gameplay_25.png?raw=true">Players who wish to cheat and modify the amount of money held by their player can do so by using a special tool developed exclusively for the release of this English translation Patch. This is particularly useful for those who find themselves unamused with the horse betting mechanic required to fund Mr. Takagi's romantic affairs.
+<img align="right" width="300" src="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/blob/main/images/gameplay_25.png?raw=true">Players who wish to cheat and modify the amount of money held by their character can do so by using a special tool developed exclusively for the release of this English translation Patch. This is particularly useful for those who find themselves unamused with the horse betting mechanic required to fund Mr. Takagi's romantic affairs.
 <br><br>
 Usage is simple: download <a href="https://github.com/DerekPascarella/GamblerQueensCup-EnglishPatchFMTowns/raw/refs/heads/main/custom_tools/save_mod.exe">save_mod.exe</a> and then drag any floppy save disk image in <tt>.d88</tt> format onto the executable itself. A menu will appear providing options for money modification.
 <br><br>
